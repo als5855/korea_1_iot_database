@@ -33,7 +33,7 @@ create table teams(
 	team_id int,
     name varchar(100),
     city varchar(100),
-    founded_year year -- 날짜형 중 연도 데잍만 저장하는 타입 YYYY
+    founded_year year -- 날짜형 중 연도 데이터만 저장하는 타입 YYYY
 );
 
 create table players (
